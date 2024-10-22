@@ -1,0 +1,18 @@
+
+
+# POST http://127.0.0.1:8000/login/
+# Content-Type:application/json
+
+
+# {
+#     "username": "showqi7",
+#     "password":"123456"
+# }
+
+GET http://127.0.0.1:8000/test_token/
+Content-Type:application/json
+
+Authorization: Token 732fe179bc9c17ae4a281edb7a8adceabc139dec
+
+
+
